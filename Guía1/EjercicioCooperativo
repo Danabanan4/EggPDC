@@ -1,0 +1,15 @@
+Algoritmo EjercicioCOOP1
+	
+	///Ingrese un número de tres cifras y muestre la unidad, decena y la centena.
+	
+	Definir num,unidad, decena, centena	Como Real
+	Escribir "Ingrese un número de tres dígitos"
+	Leer num
+	centena= trunc (num/100) 
+	decena= trunc (num/10) mod 10
+	unidad= trunc (num/1) mod 10
+	Escribir "La centena del número es: ", centena
+	Escribir "La decena del número es: ", decena
+	Escribir "La unidad del número es: ", unidad
+	
+FinAlgoritmo

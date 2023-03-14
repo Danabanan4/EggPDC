@@ -1,2 +1,2 @@
 # EggPDC
-Curso Introducción a la programación con PseInt 
+Ejercicios en PseInt del Curso Introducción a la programación de EGG

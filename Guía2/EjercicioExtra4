@@ -1,0 +1,31 @@
+Algoritmo DiaSemana
+	
+	///	Solicitar al usuario que ingrese un valor entre 1 y 7. EL programa debe mostrar por pantalla
+	///	un mensaje que indique a qué día de la semana corresponde. Considere que el número 1
+	///	corresponde al día "Lunes", y así sucesivamente.
+	
+	Definir dia Como Entero
+	
+	Escribir "Bienvenido, por favor ingrese un número entre 1 y 7"
+	leer dia
+	
+	Segun dia Hacer
+		1:
+			Escribir "El día asignado a este número es Lunes"
+		2:
+			Escribir "El día asignado a este número es Martes"
+		3:
+			Escribir "El día asignado a este número es Miércoles"
+		4:
+			Escribir "El día asignado a este número es Jueves"
+		5:
+			Escribir "El día asignado a este número es Viernes"
+		6:
+			Escribir "El día asignado a este número es Sábado"
+		7:
+			Escribir "El día asignado a este número es Domingo"
+		De Otro Modo:
+			Escribir "El número ingresado no se encuentra entre 1 y 7"
+	Fin Segun
+
+FinAlgoritmo
